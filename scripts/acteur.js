@@ -5,7 +5,7 @@ let acteurs = [
     { nom: "Robert Downey Jr.", metier: "Acteur", nationalite: "Américain", age: "56", anCarriere: 50, nbFilms: 99, prix: 4, id1: "2", film1: "Avengers", id2: "1", film2: "-" },
 ];
 
-// A part pour que acteurs reste "lisible"
+// Biographies
 let bio = [
     "Originaire du Pays de Galles, Christian Bale apparaît dès l'âge de 8 ans dans des spots publicitaires et fait à 10 ans ses débuts d'acteur, en jouant au théâtre dans The Nerd, aux côtés de Rowan Atkinson. En 1987, il tourne son premier film, le conte fantastique Mio Min Mio et décroche le rôle principal de la fresque de Steven Spielberg, L'Empire du soleil. Son interprétation de jeune orphelin détenu dans un camp de concentration japonais lui vaut des critiques unanimes. Sa carrière lancée, il s'illustre dans quelques films à costumes comme Henry V (1991) de Kenneth Branagh, Les Quatre Filles du docteur March (1995), Portrait de femme (1996) de Jane Campion ou encore l'adaptation du roman L'Agent secret (1997) de Joseph Conrad, avant de s'immerger dans l'univers du glam rock pour les besoins de Velvet Goldmine (1998).",
     "Morgan Freeman est diplômé du lycée de Greenwood, dans le Mississippi. A dix-huit ans, il s'engage dans l'Air Force et, une fois ses obligations militaires accomplies, s'installe en Californie pour étudier la danse et l'art dramatique au Los Angeles City College. C'est à Broadway qu'il fait ses débuts de comédien en 1967 dans la reprise de Hello Dolly !. La même année, il se fait remarquer, toujours au théâtre, pour son interprétation dans The Nigger lovers. A la télévision, c'est en incarnant le personnage populaire et récurrent d'Easy Rider dans la série The Electric Company qu'il se fait connaître du public américain.",
