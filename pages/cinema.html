@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Séries</title>
-        <link rel="icon" type="image/png" href="../assets/images/favicon.png" />
-    
-        <link rel="stylesheet" href="../styles/global.css">
-        <link rel="stylesheet" href="../styles/cinema.css">
-    
-        <script src="../scripts/global.js" async></script>
-        <script src="../scripts/cinema.js" async></script>
-    </head>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Séries</title>
+    <link rel="icon" type="image/png" href="../assets/images/favicon.png" />
+
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/cinema.css">
+
+    <script src="../scripts/global.js" defer></script>
+    <script src="../scripts/cinema.js" defer></script>
+</head>
+
 <body>
-  
-    
     <header>
         <div id="header_top" class="header_line">
             <div>
@@ -37,25 +37,19 @@
             AlloCiné, les dernières bandes-annonces et plus encore...
         </div>
     </header>
-    
-    
+
     <div id="slider">
-        <img src="../assets/images/carrousel/0.jpg" alt="le film du lapin" id="slide">
+        <img src="" alt="image_extrait" id="slide">
         <div class="text">
             <p>
-               <h2 id="titre">
-                BATMAN
-               </h2> 
-               <h5 id="description">
-                Alors que l'on attend The Batman de Matt Reeves et que Joker cartonne toujours dans les salles de cinéma, on ne peut oublier la trilogie The Dark Knight de Christopher Nolan.
-               </h5>
-               <h6 id="numero">1/3</h6>
-            </p> 
-          </div>
-        <div id="precedent" onclick="ChangeSlide(-1)">&#10094;</div>
-        <div id="suivant" onclick="ChangeSlide(1)">&#10095;</div>
+            <h2 id="titre"></h2>
+            <h5 id="description"></h5>
+            <h6 id="numero"></h6>
+            </p>
+        </div>
+        <div id="precedent" onclick="changeSlide(-1)">&#10094;</div>
+        <div id="suivant" onclick="changeSlide(1)">&#10095;</div>
     </div>
-        
 
     <footer>
         <div>

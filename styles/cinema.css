@@ -1,12 +1,16 @@
-
-
 #slider {
   position: relative;
-  width: 1200px;
-  margin: auto;
   display: flex;
   align-items: center;
+
+  width: 1000px;
+  height: 600px;
+  margin: 10px auto ;
+  padding: 20px;
+
+  background-color: rgb(85, 85, 85);
 }
+
 #slider img {
   width: 100%;
 }
@@ -21,7 +25,6 @@
   color:white;
   padding: 10px;
 }
-
 
 #suivant {
   right: 0;
@@ -41,4 +44,9 @@
   bottom: 8px;
   width: 100%;
   text-align: center;
+}
+
+#description {
+  max-width: 70%;
+  margin: auto;
 }
