@@ -2,11 +2,6 @@
     display: flex;
 }
 
-
-#conteneur-navigation {
-    background-color: red;
-}
-
 li {
     list-style: none;
 }

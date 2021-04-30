@@ -5,10 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../assets/images/favicon.png" />
+
+    <link rel="stylesheet" href="../styles/global.css">
+
+    <script src="../scripts/global.js" async></script>
+    <script src="../scripts/acteur.js"></script>
+
     <title>Filmographie</title>
 </head>
 
 <body>
+    <header>
+        <div id="header_top" class="header_line">
+            <div>
+                <img id="logo" src="../assets/images/logo.png" alt="logo">
+            </div>
+            <div id="header_text_search">
+                <input type="text" id="header_text">
+                <button id="header_search">Rechercher</button>
+            </div>
+        </div>
+        <div id="header_middle" class="header_line">
+            <div id="cinema" class="header_button">Cinéma</div>
+            <div id="series" class="header_button">Séries</div>
+            <div id="streaming" class="header_button">Streaming</div>
+            <div id="news" class="header_button">News</div>
+        </div>
+        <div id="header_bottom" class="header_line">
+            Découvrez notre recherche de séances cinéma, les news et dossiers cinéma et séries TV, les émissions
+            AlloCiné, les dernières bandes-annonces et plus encore...
+        </div>
+    </header>
     <main>
         <h1 id="auteur">NOM DE L'AUTEUR</h1>
         <section>
@@ -17,7 +45,6 @@
                     <li><a href="./fiche-personne.html"><img src="../images/icon-home.png" alt="icon"></a></li>
                     <li><a href="./biographie.html">Biographie</a></li>
                     <li><a href="./filmographie.html">Filmographie</a></li>
-                    <li><a href="./top-films-series.html">Top films/séries</a></li>
                 </ul>
             </nav>
         </section>
@@ -56,6 +83,14 @@
             <a href="../pages/filmographie.html">Toute sa filmographie</a>
         </section>
     </main>
+    <footer>
+        <div>
+            <a href="../pages/contact.html">Contact</a> | <a href="../pages/qui.html">Qui somme nous ?</a>
+        </div>
+        <div>
+            &copy; AllocinéOuPas
+        </div>
+    </footer>
 </body>
 
 </html>
