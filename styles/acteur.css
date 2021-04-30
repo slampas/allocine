@@ -2,11 +2,14 @@
     display: flex;
 }
 
+<<<<<<< HEAD
 
 #conteneur-navigation {
     background-color: red;
 }
 
+=======
+>>>>>>> fiche-personne
 li {
     list-style: none;
 }
