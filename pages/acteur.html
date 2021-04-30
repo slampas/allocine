@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/acteur.css">
     <script src="../scripts/identite.js"></script>
     <title>Biographie</title>
 </head>
@@ -12,10 +13,10 @@
 <body>
     <main>
         <h1 id="nomPrenom"></h1>
-        <section>
+        <section id="conteneur-navigation">
             <nav>
-                <ul>
-                    <li><a href="./fiche-personne.html"><img src="../images/icon-home.png" alt="icon"></a></li>
+                <ul class="nav">
+                    <li></li><a href="./fiche-personne.html"><img src="../images/icon-home.png" alt="icon"></a></li>
                     <li><a href="#">Biographie</a></li>
                     <li><a href="./filmographie.html">Filmographie</a></li>
                     <li><a href="./top-films-series.html">Top films/séries</a></li>
@@ -24,11 +25,12 @@
         </section>
         <section id="conteneur-identite">
             <img id="photo" src="" alt="image">
-            <p id="metier"></p>
-            <p id="nomdenaissance"></p>
-            <p id="nationalite"></p>
-            <p id="naissance"></p>
-            <p id="age"></p>
+            <ul id="identite">
+                <li id="metier"></li>
+                <li id="nationalite"></li>
+                <li id="naissance"></li>
+                <li id="age"></li>
+            </ul>
         </section>
         <section>
             <h2>BIOGRAPHIE</h2>
