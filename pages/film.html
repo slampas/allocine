@@ -1,21 +1,18 @@
 <!DOCTYPE html>
-<html lang="fr">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film</title>
     <link rel="icon" type="image/png" href="../assets/images/favicon.png" />
 
     <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/film.css">
 
     <script src="../scripts/global.js" async></script>
-    <link rel="stylesheet" href="../styles/acteur.css">
-    <script src="../scripts/acteur.js"></script>
-    <title>Biographie</title>
+    <script src="../scripts/film.js" async></script>
 </head>
-
-
 <body>
     <header>
         <div id="header_top" class="header_line">
@@ -38,38 +35,33 @@
             AlloCiné, les dernières bandes-annonces et plus encore...
         </div>
     </header>
+
     <main>
-        <h1 id="nomPrenom"></h1>
-        <section id="conteneur-navigation">
-            <nav>
-                <ul class="nav">
-                    <li></li><a href="./fiche-personne.html"><img src="../images/icon-home.png" alt="icon"></a></li>
-                    <li><a href="#">Biographie</a></li>
-                    <li><a id="filmo" href="./filmographie.html">Filmographie</a></li>
-                </ul>
-            </nav>
-        </section>
-        <section id="conteneur-identite">
-            <img id="photo" src="" alt="image">
-            <ul id="identite">
-                <li id="metier"></li>
-                <li id="nationalite"></li>
-                <li id="naissance"></li>
-                <li id="age"></li>
-            </ul>
-        </section>
-        <section>
-            <h2>BIOGRAPHIE</h2>
-            <p id="biographie"></p>
-            <a href="#">Lire plus</a>
-        </section>
-        <section>
-            <h2>FILMOGRAPHIE</h2>
-            <h3>Liste des films</h3>
-            <a id="film1" href="../pages/film.html?id="></a>
-            <a id="film2" href="../pages/film.html?id="></a>
-        </section>
+        <div id="col">
+
+            <div id="row">
+                <div id="img">
+                    <img src="../assets/images/affiches/lucy.jpg" alt="affiche">
+                </div>
+                
+                <div id="desc">
+                    <h1>Lucy</h1>
+                    <div id="date">6 aout 2014</div>
+                    <div id="real">Luc Besson</div>
+                    <div id="descr">A la suite de circonstances indépendantes de sa volonté,
+                        une jeune étudiante voit ses capacités intellectuelles se développer à l’infini.
+                        Elle « colonise » son cerveau, et acquiert des pouvoirs illimités.
+                    </div>
+                </div>
+            </div>
+            
+            <div id="acteurs">
+                <a href="../pages/acteur.html?id=1">Morgan Freeman</a>
+                <a href="../pages/acteur.html?id=2">Scarlett Johanson</a>
+            </div>
+        </div>
     </main>
+
     <footer>
         <div>
             <a href="../pages/contact.html">Contact</a> | <a href="../pages/qui.html">Qui somme nous ?</a>
@@ -79,5 +71,4 @@
         </div>
     </footer>
 </body>
-
 </html>
