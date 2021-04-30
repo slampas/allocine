@@ -1,0 +1,34 @@
+
+
+#slider {
+  position: relative;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+#slider img {
+  width: 100%;
+}
+
+#precedent, #suivant {
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  width: auto;
+  position: absolute;
+  font-size: 13px;
+  color:black;
+  padding: 10px;
+}
+
+
+#suivant {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+#slider:hover #precedent,
+#slider:hover #suivant {
+  opacity: 1;
+}
