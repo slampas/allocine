@@ -17,8 +17,8 @@
   opacity: 0;
   width: auto;
   position: absolute;
-  font-size: 13px;
-  color:black;
+  font-size: 33px;
+  color:white;
   padding: 10px;
 }
 
@@ -31,4 +31,14 @@
 #slider:hover #precedent,
 #slider:hover #suivant {
   opacity: 1;
+}
+
+.text{
+  color: white;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
 }
