@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+}
+
+/* ====================== header ============================== */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    padding-top: 10px;
+
+    background-color: rgb(238, 206, 24);
+}
+
+.header_line {
+    display: flex;
+    flex-direction: row;
+
+
+    max-width: 64rem;
+    width: 100%;
+}
+
+/* ====================== header top ============================== */
+
+#logo {
+    width: 273px;
+    height: 69px;
+}
+
+#header_top {
+}
+
+#header_text_search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 0px 3rem;
+}
+
+#header_text {
+    /* margin: auto 0px; */
+    width: 200px;
+    height: 20px;
+    margin-right: 1rem;
+}
+
+#header_search {
+    padding: 5px;
+    
+    /* margin: auto 0px; */
+}
+
+/* ====================== header middle ============================== */
+
+#header_middle {
+    padding-left: 50px;
+}
+
+.header_button {
+    background-color: rgb(238, 206, 24);
+    
+    padding: 10px 20px;
+
+    font-size: 1.5rem;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.header_button:hover {
+    background-color: rgb(230, 216, 137);
+}
+
+/* ======================= header bottom ============================= */
+
+#header_bottom {
+    background-color: whitesmoke;
+    padding: .5rem 1rem;
+
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+/* ======================= main ============================= */
+
+#main_default {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 20rem;
+    background-color: gainsboro;
+}
+
+.todo {
+    color: rgb(64, 110, 64);
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* ======================= footer ============================= */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    width: 100%;
+    
+    background-color: rgb(99, 99, 99);
+    color: rgb(190, 190, 190);
+
+    border-top: 5px solid black;
+}
+
+footer div {
+    margin: 10px;
+}
+
+footer a {
+    color: rgb(190, 190, 190);
+    margin: 10px;
+}
