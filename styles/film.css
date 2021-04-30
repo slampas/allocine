@@ -1,0 +1,58 @@
+main {
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+
+#col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: rgb(83, 83, 83);
+    width: 60%;
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding : 50px;
+    
+}
+
+main img {
+    width: 250px;
+    height: 400px;
+
+    margin-right: 20px;
+}
+
+
+
+#desc {
+    display: flex;
+    flex-direction: column;
+
+    width : 300px;
+
+    padding:10px;
+    margin-left : 20px;
+ 
+    background-color: rgb(177, 177, 177);
+}
+
+#acteurs {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+main a {
+    color: rgb(180, 180, 180);
+    margin: auto;
+    padding: 10px;
+}
