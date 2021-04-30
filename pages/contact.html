@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="../styles/global.css">
     <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="../styles/contact.css">
 
     <script src="../scripts/global.js" async></script>
     <script src="../scripts/contact.js" async></script>
@@ -36,10 +37,73 @@
         </div>
     </header>
 
-    <main id="main_default">
-        <span class="todo">// TODO</span>
-    </main>
 
+
+
+
+    
+       <section id="infos">
+        <div>
+            <h1>CONTACTEZ-NOUS</h1>
+            <h3>NOS COORDONNÉES</h3>
+            <p>AlloCiné <br>
+                2, rue Paul Vaillant Couturier<br>
+                92300 Levallois-Perret<br>
+                Tel : 0 811 69 41 42 (prix d’un appel local)
+            </p>
+            </div>
+       </section>
+
+       
+    <section id="form">
+      
+
+            
+    <div>
+        <form action="">
+            <div>
+                <label for="email">Email *</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="villes-select">TYPE DE DEMANDE </label>
+    
+                <select name="choix" id="choix">
+                
+                    <option value="lille">Bug technique</option>
+                    <option value="paris">Signaler un abus</option>
+                    <option value="maison">Contacter la rédaction</option>
+                    <option value="bordeau">Droits des personnes</option>
+                    <option value="toulouse">Informations</option>
+                    
+                </select>
+            </div>
+            <div>
+                <label for="text">Description *</label>
+                <textarea id="story" name="story"
+          rows="5" cols="33" required>
+
+                </textarea>
+                
+            </div>
+            
+            <div>
+                <button type="submit" >Envoyer la demande</button>
+            </div>
+        </form>          
+
+    </div>
+    </section>
+        
+
+
+   
+   
+   
+   
+   
+   
+   
     <footer>
         <div>
             <a href="../pages/contact.html">Contact</a> | <a href="../pages/qui.html">Qui somme nous ?</a>
@@ -48,6 +112,6 @@
             &copy; AllocinéOuPas
         </div>
     </footer>
-</body>
+
 </body>
 </html>
