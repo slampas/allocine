@@ -86,3 +86,44 @@ header {
     font-weight: bold;
 }
 
+/* ======================= main ============================= */
+
+#main_default {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 20rem;
+    background-color: gainsboro;
+}
+
+.todo {
+    color: rgb(64, 110, 64);
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* ======================= footer ============================= */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    width: 100%;
+    
+    background-color: rgb(99, 99, 99);
+    color: rgb(190, 190, 190);
+
+    border-top: 5px solid black;
+}
+
+footer div {
+    margin: 10px;
+}
+
+footer a {
+    color: rgb(190, 190, 190);
+    margin: 10px;
+}
