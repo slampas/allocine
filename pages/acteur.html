@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Biographie</title>
     <link rel="icon" type="image/png" href="../assets/images/favicon.png" />
 
     <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/acteur.css">
 
     <script src="../scripts/global.js" async></script>
-    <link rel="stylesheet" href="../styles/acteur.css">
-    <script src="../scripts/acteur.js"></script>
-    <title>Biographie</title>
+    <script src="../scripts/acteur.js" async></script>
+    
 </head>
 
 
@@ -38,53 +40,52 @@
             AlloCiné, les dernières bandes-annonces et plus encore...
         </div>
     </header>
+
     <main>
-<div id="row">
+        <div id="_row">
 
-    <img id="photo" src="" alt="image">
-    <div id="row">
+            <img id="photo" src="" alt="image">
 
-        <h1 id="nomPrenom"></h1>
-        <section id="conteneur-navigation">
-            <nav>
-                <ul class="nav">
-                    <li></li><a href="./fiche-personne.html"><img src="../images/icon-home.png" alt="icon"></a></li>
-                    <li><a href="#">Biographie</a></li>
-                    <li><a id="filmo" href="./filmographie.html">Filmographie</a></li>
-                </ul>
-            </nav>
+            <div id="_col">
+                <div id="center_titre">
+                    <h1 id="nom"></h1>
+                </div>
+
+                <section id="identite">
+                    <div id="_metier">
+                        <span class="fixe">Métier: </span><span id="metier"></span>
+                    </div>
+                    <div id="_nation">
+                        <span class="fixe">Nationalité: </span><span id="nation"></span>
+                    </div>
+                    <div id="_age">
+                        <span class="fixe">Age: </span><span id="age"></span>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>BIOGRAPHIE</h2>
+                    <p id="bio"></p>
+                </section>
+                
+            </div>
+        </div>
+
+        <section id="filmo">
+            <h2>FILMOGRAPHIE</h2>
+            <a id="film1" href="../pages/film.html?id="></a>
+            <a id="film2" href="../pages/film.html?id="></a>
         </section>
-        <section id="conteneur-identite">
-            <ul id="identite">
-                <li id="metier"></li>
-                <li id="nationalite"></li>
-                <li id="naissance"></li>
-                <li id="age"></li>
-            </ul>
-        </section>
-        <section>
-        <h2>BIOGRAPHIE</h2>
-        <p id="biographie"></p>
-        <a href="#">Lire plus</a>
-    </section>
-    <section>
-        <h2>FILMOGRAPHIE</h2>
-        <h3>Liste des films</h3>
-        <a id="film1" href="../pages/film.html?id="></a>
-        <a id="film2" href="../pages/film.html?id="></a>
-    </section>
-</div>
-    
-</div>
-</main>
-<footer>
-    <div>
-        <a href="../pages/contact.html">Contact</a> | <a href="../pages/qui.html">Qui somme nous ?</a>
-    </div>
-    <div>
-        &copy; AllocinéOuPas
-    </div>
-</footer>
+    </main>
+
+    <footer>
+        <div>
+            <a href="../pages/contact.html">Contact</a> | <a href="../pages/qui.html">Qui somme nous ?</a>
+        </div>
+        <div>
+            &copy; AllocinéOuPas
+        </div>
+    </footer>
 </body>
 
 </html>
