@@ -1,7 +1,23 @@
 
-body{
-    background-image: url(../assets/images/global.jpg);
+
+
+
+
+
+#qui div h1{
+text-align: center;
+
 }
+#qui div {
+    display: block;
+    justify-content: center;
+    max-width: 50%;
+   
+    
+    
+    }
+    
+
   #form  {
    
     border: 1px;
