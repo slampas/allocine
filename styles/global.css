@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+}
+
+/* ====================== header ============================== */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    padding-top: 10px;
+
+    background-color: rgb(238, 206, 24);
+}
+
+.header_line {
+    display: flex;
+    flex-direction: row;
+
+
+    max-width: 64rem;
+    width: 100%;
+}
+
+/* ====================== header top ============================== */
+
+#logo {
+    width: 273px;
+    height: 69px;
+}
+
+#header_top {
+}
+
+#header_text_search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 0px 3rem;
+}
+
+#header_text {
+    /* margin: auto 0px; */
+    width: 200px;
+    height: 20px;
+    margin-right: 1rem;
+}
+
+#header_search {
+    padding: 5px;
+    
+    /* margin: auto 0px; */
+}
+
+/* ====================== header middle ============================== */
+
+#header_middle {
+    padding-left: 50px;
+}
+
+.header_button {
+    background-color: rgb(238, 206, 24);
+    
+    padding: 10px 20px;
+
+    font-size: 1.5rem;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.header_button:hover {
+    background-color: rgb(230, 216, 137);
+}
+
+/* ======================= header bottom ============================= */
+
+#header_bottom {
+    background-color: whitesmoke;
+    padding: .5rem 1rem;
+
+    font-size: .8rem;
+    font-weight: bold;
+}
+
