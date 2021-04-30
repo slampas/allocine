@@ -19,4 +19,8 @@ function ChangeSlide(sens) {
 }
 
 
+document.getElementById("slide").onclick = ()=> {
+    location.href = "../pages/film.html?id=" + numero;
+};
+
 
