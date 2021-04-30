@@ -1,0 +1,30 @@
+#conteneur-navigation, #conteneur-identite, ul {
+    display: flex;
+}
+
+
+#conteneur-navigation {
+    background-color: red;
+}
+
+li {
+    list-style: none;
+}
+
+.nav {
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.photo {
+    height: 300px;
+}
+
+.nav {
+    margin-left: 1em;
+    list-style: none;
+}
+
+#identite {
+    flex-direction: column;
+}
