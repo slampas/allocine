@@ -1,53 +1,53 @@
 #slider {
-  position: relative;
-  display: flex;
-  align-items: center;
+    position: relative;
+    display: flex;
+    align-items: center;
 
-  width: 1000px;
-  height: 600px;
-  margin: 10px auto ;
-  padding: 20px;
+    width: 1000px;
+    height: 600px;
+    margin: 10px auto ;
+    padding: 20px;
 
-  background-color: rgb(85, 85, 85);
+    background-color: rgb(85, 85, 85);
 }
 
 #slider img {
-  width: 100%;
-  height: 95%;
+    width: 100%;
+    height: 95%;
 }
 
 #precedent, #suivant {
-  cursor: pointer;
-  transition: opacity 0.3s ease;
-  opacity: 0;
-  width: auto;
-  position: absolute;
-  font-size: 33px;
-  color:white;
-  padding: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    width: auto;
+    position: absolute;
+    font-size: 33px;
+    color:white;
+    padding: 10px;
 }
 
 #suivant {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 #slider:hover #precedent,
 #slider:hover #suivant {
-  opacity: 1;
+    opacity: 1;
 }
 
 .text{
-  color: white;
-  font-size: 20px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
 }
 
 #description {
-  max-width: 70%;
-  margin: auto;
+    max-width: 70%;
+    margin: auto;
 }

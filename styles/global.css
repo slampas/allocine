@@ -32,9 +32,6 @@ header {
     height: 69px;
 }
 
-#header_top {
-}
-
 #header_text_search {
     display: flex;
     flex-direction: row;
@@ -52,8 +49,6 @@ header {
 
 #header_search {
     padding: 5px;
-    
-    /* margin: auto 0px; */
 }
 
 /* ====================== header middle ============================== */
