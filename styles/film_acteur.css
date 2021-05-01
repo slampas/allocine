@@ -1,10 +1,9 @@
 main {
-    padding: 20px;
-
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    
+    padding: 20px;
 }
 
 #col {
@@ -28,7 +27,7 @@ main {
 
 main img {
     height: 400px;
-
+    width: 300px;
     margin-right: 20px;
 }
 
@@ -36,7 +35,7 @@ main img {
     display: flex;
     flex-direction: column;
 
-    width : 40%;
+    max-width : 40%;
 
     padding: 10px;
     margin-left : 20px;
@@ -56,14 +55,14 @@ main img {
     font-weight: bold;
 }
 
-h2 {
+main h2 {
     text-decoration: underline;
     margin-bottom: 5px;
 }
 
 /* ======================= Acteurs ============================= */
 
-#acteurs {
+#list {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,14 +70,19 @@ h2 {
     
     width: 40%;
     margin-top: 20px;
+    padding: 20px;
 
     text-decoration: underline;
 
     background-color: rgb(177, 177, 177);
 }
 
+#list h1 {
+    text-decoration: underline;
+    margin-top: 0px;
+}
+
 main a {
     color: black;
     margin: auto;
-    padding: 10px;
 }

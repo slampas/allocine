@@ -10,7 +10,7 @@
     <link rel="icon" type="image/png" href="../assets/images/favicon.png" />
 
     <link rel="stylesheet" href="../styles/global.css">
-    <link rel="stylesheet" href="../styles/acteur.css">
+    <link rel="stylesheet" href="../styles/film_acteur.css">
 
     <script src="../scripts/global.js" defer></script>
     <script src="../scripts/acteur.js" defer></script>
@@ -41,40 +41,40 @@
     </header>
 
     <main>
-        <div id="_row">
-
-            <img id="photo" src="" alt="image">
-
-            <div id="_col">
-                <div id="center_titre">
-                    <h1 id="nom"></h1>
+        <div id="col">
+            <div id="row">
+                <div>
+                    <img id="photo" src="" alt="photo">
                 </div>
 
-                <section id="identite">
-                    <div id="_metier">
+                <div id="desc">
+                    <div id="centre_titre">
+                        <h1 id="nom"></h1>
+                    </div>
+
+                    <div>
                         <span class="fixe">Métier: </span><span id="metier"></span>
                     </div>
-                    <div id="_nation">
+                    <div>
                         <span class="fixe">Nationalité: </span><span id="nation"></span>
                     </div>
-                    <div id="_age">
+                    <div>
                         <span class="fixe">Age: </span><span id="age"></span>
                     </div>
-                </section>
 
-                <section>
-                    <h2>BIOGRAPHIE</h2>
-                    <p id="bio"></p>
-                </section>
-
+                    <div>
+                        <h2>Biographie</h2>
+                        <span id="bio"></span>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <section id="filmo">
-            <h2>FILMOGRAPHIE</h2>
+        <div id="list">
+            <h1>Filmographie</h1>
             <a id="film1" href="../pages/film.html?id="></a>
             <a id="film2" href="../pages/film.html?id="></a>
-        </section>
+        </div>
     </main>
 
     <footer>
