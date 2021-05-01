@@ -58,11 +58,11 @@ label {
     font-size: 1rem;
 }
 
-input[type=text], textarea, select {
+main input[type=text], textarea, select {
     margin-top: .5rem;
 }
 
-input[type=text] {
+main input[type=text] {
     max-width: 25rem;
     padding: .5rem 1rem;
 }
