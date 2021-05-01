@@ -4,6 +4,8 @@ main {
     align-items: center;
     
     padding: 20px;
+
+    font-family: sans-serif;
 }
 
 #col {
@@ -84,5 +86,5 @@ main h2 {
 
 main a {
     color: black;
-    margin: auto;
+    margin: .2rem auto;
 }

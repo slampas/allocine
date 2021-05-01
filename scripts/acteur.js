@@ -10,7 +10,10 @@ document.getElementById("bio").innerHTML = bio[id];
 document.getElementById("photo").src = "../assets/images/personnes/" + id + ".jpg";
 
 // Ajoute les liens vers ses films
-document.getElementById("film1").innerHTML = acteurs[id].film1;
-document.getElementById("film1").href += acteurs[id].id1;
-document.getElementById("film2").innerHTML = acteurs[id].film2;
-document.getElementById("film2").href += acteurs[id].id2;
+for (let f in acteurs[id].films){
+    let a = document.createElement("a");
+    a.innerHTML = films[acteurs[id].films[f]].titre;
+    a.href = "../pages/film.html?id=" + acteurs[id].films[f];
+    
+    document.getElementById("list").insertBefore(a, document.getElementById("filmo").nextSibling);
+}

@@ -17,9 +17,9 @@ redirect("news", "pages/news");
 // Data
 
 var films = [
-    { titre: "The Dark Knight", date: "18 juillet 2008", real: "Christopher Nolan" },
-    { titre: "Lucy", date: "6 aout 2014", real: "Luc Besson" },
-    { titre: "Avengers", date: "25 avril 2012", real: "Joss Whedon" },
+    { titre: "The Dark Knight", date: "18 juillet 2008", real: "Christopher Nolan", acteurs: [0, 1] },
+    { titre: "Lucy", date: "6 aout 2014", real: "Luc Besson", acteurs: [1, 2] },
+    { titre: "Avengers", date: "25 avril 2012", real: "Joss Whedon", acteurs: [2, 3] }
 ];
 
 // Synopsis
@@ -30,10 +30,10 @@ var syno = [
 ];
 
 var acteurs = [
-    { nom: "Christian Bale", metier: "Acteur", nationalite: "Américain", age: "47", anCarriere: 34, nbFilms: 54, prix: 6, id1: "0", film1: "Batman", id2: "1", film2: "-" },
-    { nom: "Morgan Freeman", metier: "Acteur", nationalite: "Américain", age: "83", anCarriere: 56, nbFilms: 122, prix: 6, id1: "0", film1: "Batman", id2: "1", film2: "Lucy" },
-    { nom: "Scarlett Johansson", metier: "Actrice", nationalite: "Américaine", age: "36", anCarriere: 26, nbFilms: 65, prix: 3, id1: "1", film1: "Lucy", id2: "2", film2: "Avengers" },
-    { nom: "Robert Downey Jr.", metier: "Acteur", nationalite: "Américain", age: "56", anCarriere: 50, nbFilms: 99, prix: 4, id1: "2", film1: "Avengers", id2: "1", film2: "-" },
+    { nom: "Christian Bale", metier: "Acteur", nationalite: "Américain", age: "47", anCarriere: 34, nbFilms: 54, prix: 6 },
+    { nom: "Morgan Freeman", metier: "Acteur", nationalite: "Américain", age: "83", anCarriere: 56, nbFilms: 122, prix: 6 },
+    { nom: "Scarlett Johansson", metier: "Actrice", nationalite: "Américaine", age: "36", anCarriere: 26, nbFilms: 65, prix: 3 },
+    { nom: "Robert Downey Jr.", metier: "Acteur", nationalite: "Américain", age: "56", anCarriere: 50, nbFilms: 99, prix: 4 }
 ];
 
 // Biographies
@@ -43,3 +43,16 @@ var bio = [
     "Scarlett Johansson entame sa carrière de comédienne sur les planches de Broadway, à l'âge de huit ans, en tenant la vedette de la pièce Sophistry aux côtés d'Ethan Hawke. Au cinéma, c'est devant la caméra de Rob Reiner, pour la comédie L'Irrésistible North (1994) qu'elle fait ses premiers pas.",
     "Après des études à Los Angeles, Robert Downey Jr. s'installe à New York à l'âge de 16 ans pour y débuter une carrière de comédien. Il s'illustre notamment dans Baby, it's you (1983) et Une créature de rêve (1985), mais c'est en participant régulièrement à l'émission télévisée comique Saturday night live qu'il accède à la célébrité."
 ];
+
+// ==============================================================
+// Smart link: acteur <-> films
+
+for (let a in acteurs) {
+    acteurs[a].films = [];
+    for (let f in films)
+        for (let role in films[f].acteurs)
+            if (films[f].acteurs[role] == a) {
+                acteurs[a].films.push(f);
+                break;
+            }
+}

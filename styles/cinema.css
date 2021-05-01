@@ -2,12 +2,14 @@
     position: relative;
     display: flex;
     align-items: center;
-
+    
     width: 1000px;
     height: 600px;
     margin: 10px auto ;
     padding: 20px;
-
+    
+    font-family: sans-serif;
+    
     background-color: rgb(85, 85, 85);
 }
 
